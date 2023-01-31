@@ -1,10 +1,10 @@
 # [22,27,16,2,18,6] ->Insertion Sort
 
-	İlk indexteki sayı[0] ile dizideki en küçük sayıyı karşılaştırıp yerlerini değiştiririz.,
-	Eğer ilk indexteki sayı en küçükse hiç birşey yapılmaz.
-	Sonra N-1 ile 7 haneli dizimizin geriye kalan 5 tanesine bakarız.
-	İkinci indexteki sayı[1] ile dizide geriye kalan 4 sayıyı karşılaştırırız.
-	Küçük olanı sol tarafa yazarız. Böyle devam eder.
+	Ä°lk indexteki sayi[0] ile dizideki en kÃ¼Ã§Ã¼k sayiyi karÅŸÄ±laÅŸtÄ±rÄ±p yerlerini deÄŸiÅŸtiririz.,
+	EÄŸer ilk indexteki sayÄ± en kÃ¼Ã§Ã¼kse hiÃ§ birÃ¾ey yapÄ±lmaz.
+	Sonra N-1 ile 7 haneli dizimizin geriye kalan 5 tanesine bakarÃ½z.
+	Ãkinci indexteki sayÃ½[1] ile dizide geriye kalan 4 sayÃ½yÃ½ karÃ¾Ã½laÃ¾tÃ½rÃ½rÃ½z.
+	KÃ¼Ã§Ã¼k olanÃ½ sol tarafa yazarÃ½z. BÃ¶yle devam eder.
 	/* 
 	We compare the number in the first index[0] with the smallest number in the array and swap them. If the number in the first index is the smallest, nothing is done.
 	Then we look at the remaining 5 of our 7 digit array with N-1.
@@ -21,14 +21,14 @@
 	BigO'su da O(n2)'dir.
 
 
-	### Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
+	### Time Complexity: Dizi sÃ½ralandÃ½ktan sonra 18 sayÃ½sÃ½ aÃ¾aÃ°Ã½daki case'lerden hangisinin kapsamÃ½na girer? YazÃ½nÃ½z
 
-	Average case' girer çünkü aradığımız sayı dizinin ortasındadır.
+	Average case' girer Ã§Ã¼nkÃ¼ aradÃ½Ã°Ã½mÃ½z sayÃ½ dizinin ortasÃ½ndadÃ½r.
 
-	Worst case: Aradığımız sayı sonda olsaydı en iyi sonucu alabilirdik ama değil.
-	Best case: Aradığımız sayı en başta olsaydı en iyi sonucu alabilirdik ama değil.
+	Worst case: AradÃ½Ã°Ã½mÃ½z sayÃ½ sonda olsaydÃ½ en iyi sonucu alabilirdik ama deÃ°il.
+	Best case: AradÃ½Ã°Ã½mÃ½z sayÃ½ en baÃ¾ta olsaydÃ½ en iyi sonucu alabilirdik ama deÃ°il.
 
-	# [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+	# [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a gÃ¶re ilk 4 adÃ½mÃ½nÃ½ yazÃ½nÃ½z.
 
 	* First  [2,3,5,8,7,9,4,15,6]     (n)
 
