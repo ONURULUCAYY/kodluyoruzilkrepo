@@ -1,8 +1,9 @@
-# [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+# [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aÅŸamalarÄ±nÄ± yazÄ±nÄ±z.
 
-Root'u mu 6 olarak alıyorum ve sol tarafa 6'dan küçük olan sayıları yazmam gerekiyor.
-Sağ tarafa ise 6 dan büyük olan sayıları yazmam gerekiyor. Yazması zor olacağı için resimde anlatıyorum.
+Root'u mu 6 olarak alÄ±yorum ve sol tarafa 6'dan kÃ¼Ã§Ã¼k olan sayÄ±larÄ± yazmam gerekiyor.
+SaÄŸ tarafa ise 6 dan bÃ¼yÃ¼k olan sayÄ±larÄ± yazmam gerekiyor. YazmasÄ± zor olacaÄŸÄ± iÃ§in resimde anlatÄ±yorum.
 
-![RESIM] (https://github.com/ONURULUCAYY/kodluyoruzilkrepo/blob/main/tree.PNG)
+
+![RESIM](https://github.com/ONURULUCAYY/kodluyoruzilkrepo/blob/main/tree.PNG)
 
 		
