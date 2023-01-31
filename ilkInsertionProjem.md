@@ -1,15 +1,15 @@
 # [22,27,16,2,18,6] ->Insertion Sort
 
-	İlk indexteki sayı[0] ile dizideki en küçük sayıyı karşılaştırıp yerlerini değiştiririz.,
-	Eğer ilk indexteki sayı en küçükse hiç birşey yapılmaz.
-	Sonra N-1 ile 7 haneli dizimizin geriye kalan 5 tanesine bakarız.
-	İkinci indexteki sayı[1] ile dizide geriye kalan 4 sayıyı karşılaştırırız.
-	Küçük olanı sol tarafa yazarız. Böyle devam eder.
-	/* 
+	Ä°lk indexteki sayi[0] ile dizideki en kÃ¼Ã§Ã¼k sayiyi karÅŸÄ±laÅŸtÄ±rÄ±p yerlerini deÄŸiÅŸtiririz.,
+	EÄŸer ilk indexteki sayÄ± en kÃ¼Ã§Ã¼kse hiÃ§ birÃ¾ey yapÄ±lmaz.
+	Sonra N-1 ile 7 haneli dizimizin geriye kalan 5 tanesine bakarÃ½z.
+	Ä°kinci indexteki sayÄ±[1] ile dizide geriye kalan 4 sayÄ±yÄ± karÅŸÄ±laÅŸtÄ±rÄ±rÄ±z.
+	KÃ¼Ã§Ã¼k olanÄ± sol tarafa yazarÄ±z. BÃ¶yle devam eder.
+	
 	We compare the number in the first index[0] with the smallest number in the array and swap them. If the number in the first index is the smallest, nothing is done.
 	Then we look at the remaining 5 of our 7 digit array with N-1.
 	We compare the number in the second index[1] with the remaining 4 numbers in the array.
-	We write the smaller one on the left side. And so on. */
+	We write the smaller one on the left side. And so on.]
 
 
 	* First  [2,27,16,22,18,6]    (n)
@@ -21,14 +21,14 @@
 	BigO'su da O(n2)'dir.
 
 
-	### Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
+### [Time Complexity: Dizi sÄ±ralandÄ±ktan sonra 18 sayÄ±yÄ± aÅŸaÄŸÄ±daki case'lerden hangisinin kapsamÄ±na girer? YazÄ±nÄ±z]
 
-	Average case' girer çünkü aradığımız sayı dizinin ortasındadır.
+	Average case' girer Ã§Ã¼nkÃ¼ aradÄ±ÄŸÄ±mÄ±z sayÄ± dizinin ortasÄ±ndadÄ±r.
 
-	Worst case: Aradığımız sayı sonda olsaydı en iyi sonucu alabilirdik ama değil.
-	Best case: Aradığımız sayı en başta olsaydı en iyi sonucu alabilirdik ama değil.
+	Worst case: AradÄ±ÄŸÄ±mÄ±z sayÄ± sonda olsaydÄ± en iyi sonucu alabilirdik ama deÄŸil.
+	Best case: AradÄ±ÄŸÄ±mÄ±z sayÄ± en baÅŸta olsaydÄ± en iyi sonucu alabilirdik ama deÄŸil.
 
-	# [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+# [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a gÃ¶re ilk 4 adÄ±mÄ±nÄ± yazÄ±nÄ±z.
 
 	* First  [2,3,5,8,7,9,4,15,6]     (n)
 
