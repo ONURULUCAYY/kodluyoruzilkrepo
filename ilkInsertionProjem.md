@@ -3,13 +3,13 @@
 	İlk indexteki sayi[0] ile dizideki en küçük sayiyi karşılaştırıp yerlerini değiştiririz.,
 	Eğer ilk indexteki sayı en küçükse hiç birþey yapılmaz.
 	Sonra N-1 ile 7 haneli dizimizin geriye kalan 5 tanesine bakarýz.
-	Ýkinci indexteki sayý[1] ile dizide geriye kalan 4 sayýyý karþýlaþtýrýrýz.
-	Küçük olaný sol tarafa yazarýz. Böyle devam eder.
-	/* 
-	We compare the number in the first index[0] with the smallest number in the array and swap them. If the number in the first index is the smallest, nothing is done.
+	İkinci indexteki sayı[1] ile dizide geriye kalan 4 sayıyı karşılaştırırız.
+	Küçük olanı sol tarafa yazarız. Böyle devam eder.
+	
+	### [We compare the number in the first index[0] with the smallest number in the array and swap them. If the number in the first index is the smallest, nothing is done.
 	Then we look at the remaining 5 of our 7 digit array with N-1.
 	We compare the number in the second index[1] with the remaining 4 numbers in the array.
-	We write the smaller one on the left side. And so on. */
+	We write the smaller one on the left side. And so on.]
 
 
 	* First  [2,27,16,22,18,6]    (n)
