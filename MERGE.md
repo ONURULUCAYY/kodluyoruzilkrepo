@@ -1,20 +1,20 @@
 # [16,21,11,8,12,22] Merge Sort
 
-Merge Sort türünde dizi sürekli ikiye bölüneceğinden (n,n/2,n/4 şeklinde)
+Merge Sort tÃ¼rÃ¼nde dizi sÃ¼rekli ikiye bÃ¶lÃ¼neceÃ°inden (n,n/2,n/4 Ã¾eklinde)
 ilk olarak
 
 								[16,21,11,8,12,22]
 
-						    [16,21,11]		[8,12,22]
+						   	 [16,21,11]		[8,12,22]
 
-							[16] [21,11]	[8,12]  [22]
+							[16] [21,11]		[8,12]  [22]
 
-							[16][21][11]	[8][12][22] 
+							[16][21][11]		[8][12][22] 
 								
-							[16][11,21]		[8][12][22] 
+							 [16][11,21]		[8][12][22] 
 							
-							[11,16,21]		[8,12,22]
+							  [11,16,21]		[8,12,22]
 							
 								[8,11,12,16,21,22]
 
-Sürekli ikiye bölündüğünden 2^x = n formülünden O(nLogn)'dir.
+SÃ¼rekli ikiye bÃ¶lÃ¼ndÃ¼Ã°Ã¼nden 2^x = n formÃ¼lÃ¼nden O(nLogn)'dir.
