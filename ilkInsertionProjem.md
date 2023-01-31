@@ -21,7 +21,7 @@
 	BigO'su da O(n2)'dir.
 
 
-### [Time Complexity: Dizi sýralandýktan sonra 18 sayýsý aþaðýdaki case'lerden hangisinin kapsamýna girer? Yazýnýz]
+### [Time Complexity: Dizi sıralandıktan sonra 18 sayıyı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız]
 
 	Average case' girer çünkü aradığımız sayı dizinin ortasındadır.
 
