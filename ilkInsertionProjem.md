@@ -6,7 +6,7 @@
 	İkinci indexteki sayı[1] ile dizide geriye kalan 4 sayıyı karşılaştırırız.
 	Küçük olanı sol tarafa yazarız. Böyle devam eder.
 	
-	### [We compare the number in the first index[0] with the smallest number in the array and swap them. If the number in the first index is the smallest, nothing is done.
+	We compare the number in the first index[0] with the smallest number in the array and swap them. If the number in the first index is the smallest, nothing is done.
 	Then we look at the remaining 5 of our 7 digit array with N-1.
 	We compare the number in the second index[1] with the remaining 4 numbers in the array.
 	We write the smaller one on the left side. And so on.]
@@ -21,14 +21,14 @@
 	BigO'su da O(n2)'dir.
 
 
-	### Time Complexity: Dizi sýralandýktan sonra 18 sayýsý aþaðýdaki case'lerden hangisinin kapsamýna girer? Yazýnýz
+### [Time Complexity: Dizi sýralandýktan sonra 18 sayýsý aþaðýdaki case'lerden hangisinin kapsamýna girer? Yazýnýz]
 
-	Average case' girer çünkü aradýðýmýz sayý dizinin ortasýndadýr.
+	Average case' girer çünkü aradığımız sayı dizinin ortasındadır.
 
-	Worst case: Aradýðýmýz sayý sonda olsaydý en iyi sonucu alabilirdik ama deðil.
-	Best case: Aradýðýmýz sayý en baþta olsaydý en iyi sonucu alabilirdik ama deðil.
+	Worst case: Aradığımız sayı sonda olsaydı en iyi sonucu alabilirdik ama değil.
+	Best case: Aradığımız sayı en başta olsaydı en iyi sonucu alabilirdik ama değil.
 
-	# [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adýmýný yazýnýz.
+# [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
 
 	* First  [2,3,5,8,7,9,4,15,6]     (n)
 
